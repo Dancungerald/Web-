@@ -1,0 +1,377 @@
+<html>
+<head>
+	<title>Application Form</title>
+</head>
+<style type="text/css">
+.intro
+{
+	background-color: #660000;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	border-collapse:collapse;
+}
+.p1
+{
+	color:#00cc00;
+	text-align:center;
+	font-size:20px;
+}
+.p2
+{
+	text-align:center;
+}
+.contacts
+{
+	text-align:left;
+}
+.intro2
+{
+	background-color: #660000;
+	text-align:center;
+	font-size: 20px;
+	color:white;
+}
+.f1
+{
+	border:1px solid black;
+
+}
+.div1
+{
+	text-align: left;
+	background-color:#cc9900;
+	color:black;
+
+}
+table,tr
+{
+	border: 1px solid black;
+	width:100%;
+	border-collapse:collapse;
+}
+td
+{
+	width:49%;
+	border:1px solid black;
+}
+.t2 td
+{
+	width:24%;
+}
+.t3 td
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	width:16%;
+}
+
+.t4 td
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	width:16%;
+}
+
+.t5 td
+{
+	border:1px solid black;
+	border-collapse:collapse;
+	width:16%;
+}
+.t6   td
+{
+	width:19%;
+}
+.div2
+{
+	height:10px;
+	background-color:white;
+	border:1px solid black;
+}
+.t7 td,tr
+{
+	border:1px solid black;
+	height:20px;
+}
+.t, .t2, .t3, .t4, .t5, .t6, .t7
+{
+	color:red;
+}
+.t8 td
+{
+	width:17.9%;
+}
+.t10
+{
+	text-align:center;
+}
+.t9 td
+{
+	width:19%;
+}
+.div0
+{
+	width:50%;
+	text-align: center;
+}
+.div11
+{
+	width:100%;
+	text-align: right;
+}
+.close
+{
+	text-align: center;
+	color:red;
+}
+.cl
+{
+	text-align: center;
+}
+.divmain
+{
+	text-align: center;
+	font-size:30px;
+	color:#660000;
+}
+.divsem
+{
+	color:#660000;
+	text-align:right;
+	padding-right:350px;
+	font-size: 20px;
+	margin-bottom:30px;
+	margin-top:0px;
+}
+.fullname
+{
+	width:49%;
+}
+.sbt
+{
+	margin-left: 600px;
+}
+</style>
+<body>
+<div class="divmain"> <h1>KABARAK <img src="school_logo.jpg" width="180px" height="180px">UNIVERSITY </h1></div><!--to hold school logo and name-->
+<div class="divsem">Education In Biblical Perspective.</div>
+<div class="intro"> APPLICATION FORM</div>
+<p class="p1">READ THE APPLICATION INSTRUCTIONS BEFORE COMPLETING THIS FORM</p>
+<p class="p2">COMPLETE ALL APPROPRIATE SECTIONS IN CAPITAL/BLOCK LETTERS AND RETURN WITH YOUR NON-REFUNDABLE 
+	<br>APPLICATION FEE AND OTHER SUPPORTING DOCUMENTS TO:</p>
+	<div class="contacts">The Addmissions Office Kabarak University <br>
+		Private Bag - 20157, KABARAK, Nakuru-Eldama-Ravine Road <br>
+		Tel: 020-2114658 / 0729-233370 <br>
+		Fax: 051-343012 <br>
+		Email:admissions@kabarak.ac.ke <br>
+		<img src="facebook_logo.jpg" width="15px" height="15px">www.facebook.com/kabarakUniversity <br>
+		<img src="twitter_logo.png" width="20px" height="20px">@KabarakUniv <br>
+	</div>
+	<div class="intro2">PLEASE FILL IN CAPITAL LETTERS</div>
+	<br>
+
+	<form class="f1" method="POST" action="skeleton.php">
+		<table class="t">
+			<div class="div1">1.APPLICANTS DETAILS.</div>
+		
+			<tr>
+				<td>FULL NAMES <br> (as per scondary school certificate or equivalent)
+				
+							</td>
+							<td><textarea type="text" name="fullname" placeholder="Enter your name here" required cols="100"></textarea></td></tr>	
+
+
+			<table class="t2">
+				<td>TITLE</td>  <td>MR [<input type="checkbox" class="r" name="MR" value="MR"> ] MRS [<input type="checkbox" class="r" name="MRS" value="MRS"> ] MS [<input type="checkbox" class="r" name="MS" value="MS"> ]</td>  <td>GENDER: MALE [<input type="checkbox" class="q" name="M" value="MALE"> ] FEMALE [<input type="checkbox" class="q" name="F" value="FEMALE"> ]</td>  <td>MARITAL STATUS: MARRIED <input type="checkbox" class="s" name="MARRIED" value="MARRIED">SINGLE <input type="checkbox" class="s" name="SINGLE" value="SINGLE"></td>
+			</table>
+			<table class="t3"> 
+				<td>DATE OF BIRTH</td><td><input type="date"  name="STDOB"></td><td>NATIONALITY</td><td><input type="text" cols="10" name="STNATIONALITY"></td><td>NATIONAL ID/PASSPORT NO:</td><td><input type="text" cols="10" name="STNATIONAL_NO"></td>
+			</table>
+			<table class="t4"> 
+				<td>COUNTY</td><td><input type="text" cols="10" name="STCOUNTRY"></td><td>SUB-COUNTY</td><td><input type="text" cols="10" name="STSUB_COUNTY"></td><td>MOBILE NO:</td><td><input type="text" cols="10" name="STMOBILE"></td>
+			</table>
+			<table class="t5"> 
+				<td>P.O. BOX CODE</td><td><input type="text" cols="10" name="STUDENT_POSTAL_CODE"></td><td>TOWN</td><td><input type="text" cols="10" name="STUDENT_TOWN"></td><td>EMAIL</td><td><input type="email" name="STUDENT_EMAIL"></td>
+			</table>
+
+			<div class="div2"></div>
+			<div class="div1">2. PARENTS' CONTACTS <input type="checkbox" class="x" name="PARENT_CONTACTS" value="PARENT">     GUARDIAN CONTACTS <input type="checkbox" class="x" name="GUARDIAN_CONTACTS" value="GUARDIAN">    (<i>Tick Where Applicable)</i></div>
+			<table class="t6">
+				<tr>
+					<td>FATHER'S NAME</td><td><input type="text" cols="10" name="FATHER_NAME"></td><td>MOTHER'S NAME</td><td><input type="text" cols="10" name="MOTHER_NAME"></td>
+				</tr>
+			</table>
+			<table class="t6">
+				<tr>
+					<td>MOBILE NO.</td><td><input type="text" cols="10" name="FATHER_MOBILE"></td><td>MOBILE NO.</td><td><input type="text" cols="10" name="MOTHER_MOBILE"></td>
+				</tr>
+			</table>
+			<table class="t5"> 
+				<td>P.O. BOX CODE</td><td><input type="text" cols="10" name="PARENT_POSTAL_CODE"></td><td>TOWN</td><td><input type="text" cols="10" name="PARENT_TOWN"></td><td>EMAIL</td><td><input type="email"  name="PARENT_EMAIL"></td>
+			</table>
+			<div class="div2"></div>
+			<div class="div1">3.SPOUSE'S/NEXT OF KIN CONTACTS(<i>Tick  Where Applicable</i>)</div>
+			<table class="t">
+				<tr>
+					<td>SPOUSE'S NAME <input type="checkbox" class="x" name="SPOUSE" value="YES"> <input type="text" cols="10" name="SPOUSE_NAME"></td><td>NEXT OF KIN NAME <input type="checkbox" class="x"  name="NEXT_OF_KIN" value="YES"> <input type="text" cols="10" name="NEXT_OF_KIN_NAME"></td>
+					</tr>
+					<table class="t5"> 
+				<td>P.O. BOX CODE</td><td><input type="text" cols="10" name="SPOUSE_POSTAL_CODE"></td><td>TOWN</td><td><input type="text" cols="10" name="SPOUSE_TOWN"></td><td>EMAIL</td><td><input type="email" name="SPOUSE_EMAIL"></td>
+			</table>
+			<div class="div2"></div>
+			<div class="div1">4.EDUCATIONAL BACKGROUND</div>
+			<table class="t7">
+				<tr>
+					<td>INSTITUTION ATTENDED</td>
+					<td>FROM(YEAR)</td>
+					<td>TO(YEAR)</td>
+					<td>CERTIFICATE AWARDED</td>
+					<td>MEAN GRADE</td> 
+</tr>
+					<tr>
+						<td><input type="text" cols="10" name="INST_ONE"></td><td><input type="text" cols="10" name="SY1"></td><td><input type="text" cols="10" name="FY1"></td><td><input type="text" cols="10" name="CERT1"></td><td><input type="text" cols="10" name="GRADE1"></td>
+					</tr>
+					<tr>
+						<td><input type="text" cols="10" name="INST_TWO"></td><td><input type="text" cols="10" name="SY2"></td><td><input type="text" cols="10" name="FY2"></td><td><input type="text" cols="10" name="CERT2"></td><td><input type="text" cols="10" name="GRADE2"></td>
+					</tr>
+					<tr>
+						<td><input type="text" cols="10" name="INST_THREE"></td><td><input type="text" cols="10" name="SY3"></td><td><input type="text" cols="10" name="FY3"></td><td><input type="text" cols="10" name="CERT3"></td><td><input type="text" cols="10" name="GRADE3"></td>
+					</tr>
+
+				
+			</table>
+			<div class="div2"></div>
+			<div class="div1">5.EDUCATIONAL PLANS  (Tick Appropriatey).</div>
+			<table class="t8">
+				<tr>
+					<td>1.PROGRAMME APPLIED FOR</td><td>DOCTRATE <input type="checkbox" name="DOCTRATE" value="YES"></td><td>MASTERS<input type="checkbox" name="MASTERS" value="YES"></td><td>BACHELORS DEGREE <input type="checkbox" name="BACHELORS_DEGREE" value="YES"></td><td>DIPLOMA <input type="checkbox" name="DIPLOMA" value="YES"></td><td>CERTIFICATE <input type="checkbox" name="CERTIFICATE" value="YES"></td> 
+				</tr>
+				<tr>
+					<td>2.PROGRAMME NAME</td><td><input type="text" cols="10" name="PROGRAMME_NAME"></td><td>Specialization</td><td><input type="text" cols="10" name="SPECIALIZATION"></td>
+				</tr>
+				<tr>
+					<td>3.MODE OF STUDY</td><td>REGULAR<input type="checkbox" name="REGULAR" value="REGULAR">  </td><td>SCHOOL-BASED<input type="checkbox" name="SHOOL_BASED" value="SCHOOL_BASED"> </td><td>ONLINE <input type="checkbox" name="ONLINE" value="ONLINE"></td><td>WEEKENDS<input type="checkbox" name="WEEKENDS" value="WEEKENDS">  </td><td>EVENING <input type="checkbox" name="EVENING" value="EVENING"></td>
+				</tr>
+				<tr>
+					<td>4.PREFERED INTAKE</td><td>JANUARY<input type="checkbox" name="JANUARY" value="JANUARY">      </td><td>APRIL<input type="checkbox" name="APRIL" value="APRIL"> </td><td>AUGUST<input type="checkbox" name="AUGUST" value="AUGUST">  </td><td>SEPTEMBER <input type="checkbox" name="SEPTEMBER" value="SEPTEMBER"></td><td>DECEMBER <input type="checkbox" name="DECEMBER" value="DECEMBER"></td>
+				</tr>
+			</table class="t9">
+			<div class="div2"></div>
+
+			<div class="div1">6.CAMPUS WHERE STUDY WILL BE UNDERTAKEN.</div>
+			<table>
+				<tr><td>MAIN CAMPUS<input type="checkbox" name="MAIN_CAMPUS" value="MAIN_CAMPUS">  </td> <td>  TOWN CAMPUS <input type="checkbox" name="TOWN_CAMPUS" value="TOWN_CAMPUS"></td></tr>
+			</table class="t9">
+			<div class="div1">7.FINANCING OF STUDIES.</div>
+			<table class="t9">
+				<tr><td>Please Tick:</td><td>  SELF<input type="checkbox" name="FINANCING_SELF" value="SELF"> </td></td><td>PARENT/GUARDIANS<input type="checkbox" name="FINANCING_PARENT" value="PARENT">    </td><td>GOVERNMENT/HELB <input type="checkbox" name="FINANCING_GOVERNMENT" value="GOVERNMENT"></td><td>OTHER SPONSORSHIP.<input type="checkbox" name="FINANCING_OTHER" value="OTHER"></td></td></tr>
+			</table>
+			</table>
+			<div class="div1">8.RELIGION.</div>
+			<table class="t8">
+				<tr> <td>Please Tick:</td> <td>CATHOLIC <input type="checkbox" name="CATHOLIC" value="CATHOLIC"></td>   <td>PROTESTANT <input type="checkbox" name="PROTESTANT" value="PROTESTANT"></td>  <td>MUSLIM <input type="checkbox" name="MUSLIM" value="MUSLIM"></td>  <td>HINDU <input type="checkbox" name="HINDU" value="HINDU"></td>  <td>OTHER <input type="checkbox" name="RELIGION_OTHER" value="RELIGION_OTHER"></td></tr>
+			</table>
+			<div class="div2"></div>
+			<div class="div1">9.STATE WHETHER YOU HAVE ANY SPECIAL NEEDS THAT REQUIRE SPECIAL ATTENTION.</div>
+			<table> <tr><td>Please Click    Yes <input type="checkbox" name="SPECIAL_NEEDS_YES" value="YES">        No <input type="checkbox"name="SPECIAL_NEEDS_NO" value="NO"> <br>
+				If Yes, State the need <textarea cols="150" rows="2" placeholder="If Yes, Please specify here..." name="SPECIAL_NEEDS"></textarea></td></tr>
+			</table>
+			<div class="div2"></div>
+			<div class="div1">10.TELL US HOW YOU LEARNT ABOUT KABARAK UNIVERSITY.</div>
+			<table class="t10">RADIO <input type="checkbox" name="INF_RADIO" value="RADIO">            TELEVISON <input type="checkbox" name="INF_TELEVISION" value="TELEVISION">       FRIENDS<input type="checkbox" name="INF_FRIENDS" value="FRIENDS">        CAREER  EXHIBITION <input type="checkbox" name="CARREER_EXB" value="CAREER EXHIBITION">  OTHER <input type="checkbox" name="INF_OTHER" value="OTHER"> <br>
+				<textarea class="need" cols="180" rows="2" placeholder="If other,Please specify here..." name="INF_OTHER_CONT"></textarea> <br>
+			            1 Peter 3:14| As members of Kabarak University family, we purpose at all times and in all places to set a part in one's heart, Jesus Christ as Lord.</table>
+
+				<div class="div1">11.AGREEMENT</div>
+				<table>
+					<p>As a University with Biblical Christian foundation, it is expected that students will strive for biblical sandards of personal character, conduct and discipline in dealing with all people within and outside the University.In accordance with the University Moral Code, the students should aim at all times in all places to set a part in ones heart Jesus Christ as Lord(1 Peter 3:15) <br> 		I hereby declare that I will abide by the rules and regulations of Kabarak University. <br>
+						<!-- WE WILL ADD THE SIGDATE AND SIGDATEP AFTER FIGURING OUT THE OTHER VALUES -->
+						Signature <textarea rows="1" cols="45"></textarea>Date <input type="date" name="SIGDATE"> <br>
+						Parent/Guardian Signature <textarea rows="1" cols="45"></textarea>Date:<input type="date" name="SIGDATEP">
+						<br>
+						<b>Sign your application form before returning it to the nearest Kabarak University Campus</b> 
+						<div class="div1">12.REQUIREMENTS FOR ADMISSION</div>
+						1.Duly filled and signed application form. <br>
+						2.Copies of all certificates and transcripts, Masters, Bachelors, Diplomas and Certificates. <br>
+						3.Two(2) recent passport size photographs(write your name on the reverse side) <br>
+						4.Copy of national ID/Passport or Birth Certificate
+						5.Application fee deposit slip: Certificate -500,Diploma Undergraduate -Ksh 1,000; Postgraduate -Ksh1,500 <br>
+
+						<i>No cash payment</i> <br>
+						<hr>
+						<h6> ADDITIONAL REQUIREMENTS FOR INTERNATIONAL STUDENTS</h6> <br>
+						1. An official translation of academic records(where language of study is not English) <br>
+						2. A current financial guarantee letter <br>
+						3. A complete immigration pass form( 2 forms closed) <br>
+						4. Academic document equation fee <br>
+						5. A copy of passport. <br>
+						<div class="div1">
+							<p>Payment can also be made to Kabarak University through any of the following bank accounts <br>
+								<b>.Standard Chatered Bank -01040-943637-01 Nakuru</b> <br>
+								<b>.Trans National Bank -0040503005 Nakuru</b> <br>
+								<b>.Kenya Commercial Bank -1109663161 Nakuru</b> <br>
+								<b>.Equity Bank -031029445167 Nakuru Kenyatta Avenue</b> <br>
+								<b>.MPesa Pay Bill A/c No.511480 with applicants name as a/c name</b><br>
+
+							</p>
+
+						</div>
+						<br>
+						REGISTRATION <br>
+						Students are required to be registered to class prior to the beginning of any semester.As a new student, you will be given orientation on registrtion procedures during the registration period. <br> <br>
+
+						<b>ONLY COMPLETE APPLICATION FORMS WILL BE PROCESSED. DEADLINES MUST BE OBSERVED.</b> <br> <br>
+						<div class="div1">FOR OFFICIAL USE ONLY.</div> <br>
+						Date application received <input type="date"><br> <br>
+						Recomendation by the school <br>
+						Accepted <input type="checkbox" value="ACCEPTED"><br>
+						Rejected <input type="checkbox" value="REJECTED">  Reason for rejection <textarea rows="2" cols="100"></textarea><br><br><br>
+						<b>Signed <textarea rows="1" cols="45"></textarea>Date <input type="date"></b> <br>
+						<div class="div0">DEAN OF SCHOOL.</div> <br>	<br>
+						<b>Signed <textarea rows="1" cols="45"></textarea>Date <input type="date"></b>
+						<div class="div0">DIRECTOR POSTGRADUATE STUDIES.</div> <br>
+						<div class="div11">.....................................................................................Official Stamp</div>
+
+					</p><br><br><br>
+					<hr>
+					<br>
+
+					<div class="div1"><label>PLEASE SELECT STUDENT PASSPORT PICTURE.</label></div>
+					<br>
+					<br>
+					<div class="profile_pic">
+						<label for="myfile">UPLOAD PROFILE PICTURE:</label>
+						<input type="file" id="myfile" name="Student_photo">
+					</div>
+
+					<br>
+					<br>
+
+					<div class="div1"><label>IF YOU HAVE CORRECTLY FILLED THE FORM HIT THE BUTTON BELLOW TO SUBMIT.</label></div>
+					<br>
+					<br>
+					<div>
+					<button type="submit" class="sbt" >Submit</button>
+					</div>
+					<hr>
+					<div><b>Kabarak University RESERVES THE RIGHT OF ADMISSION</b><br>
+						More information may be obtained from the Office of the registrar, Acade,ic Affairs,Kabarak University <br>
+						<b>www.kabarak.ac.ke</b> <br><br>
+
+						<p class="close"><b>1 Peter 3:15</b></p><br>
+						<p class="cl"><i>As members of Kabarak University family we purpose at all times and in all places to set a part in one's heart,Jesus Christ as Lord.</i></p>
+
+
+
+
+					</div> 
+
+				</table>
+		</table>
+	</form>
+
+	
+</body>
+</html>
+
